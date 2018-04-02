@@ -158,17 +158,248 @@
                     <div class="form-group">
                       <textarea class="form-control" placeholder="Your Phone" rows="1" id="phone" name="phone" required data-error="Please enter your phone number"></textarea>
                       <div class="help-block with-errors"></div>
-                  </div>
                     </div>
+                  </div>
                   <div class="col-md-6">
                     <div class="form-group">
                       <textarea class="form-control" placeholder="Delivery address" rows="4" id="address" name="address" required data-error="Please enter the delivery address"></textarea>
                       <div class="help-block with-errors"></div>
+                    </div>
                   </div>
-              </div>
+                  
+                  <div class="col-md-12">
+                    <h2 class="minor-heading">Single Wood</h2>
+                  </div>
+                  <!-- START Single wood: Pine -->
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <input type="checkbox" name="Pine" id="pine" value="Pine">
+                      <label class="" for="pine">Pine</label>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <label>Quantity: </label>
+                      <input type="number" class="form-control-nopad" name="pine-qnty" rows="1" min="0" id="pine-qnty" value="0">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <select class="form-control form-control-sm" id="single-pine">
+                        <option value="m&sup3;">m&sup3;</option>
+                        <option value="bags">bags</option>
+                      </select>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <!-- END Single wood: Pine -->
+
+                  <!-- START Single wood: Macrocarpa -->
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <input type="checkbox" name="macrocarpa" id="macrocarpa" value="macrocarpa">
+                      <label class="" for="macrocarpa">Macrocarpa</label>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <label>Quantity: </label>
+                      <input type="number" class="form-control-nopad" name="macrocarpa-qnty" min="0" rows="1" id="macrocarpa-qnty" value="0">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <select class="form-control form-control-sm" id="single-macrocarpa">
+                        <option value="m&sup3;">m&sup3;</option>
+                        <option value="bags">bags</option>
+                      </select>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <!-- END Single wood: Macrocarpa -->
+
+                  <!-- START Single wood: manukakanuka -->
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <input type="checkbox" name="manukakanuka" id="manukakanuka" value="manukakanuka">
+                      <label class="" for="manukakanuka">Manuka/Kanuka</label>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <label>Quantity: </label>
+                      <input type="number" class="form-control-nopad" name="manukakanuka-qnty" min="0" rows="1" id="manukakanuka-qnty" value="0">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <select class="form-control form-control-sm" id="single-manukakanuka">
+                        <option value="m&sup3;">m&sup3;</option>
+                        <option value="bags">bags</option>
+                      </select>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <!-- END Single wood: manukakanuka -->
+
+                    <!-- START Single wood: gum -->
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <input type="checkbox" name="gum" id="gum" value="gum">
+                      <label class="" for="gum">Gum</label>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <label>Quantity: </label>
+                      <input type="number" class="form-control-nopad" name="gum-qnty" min="0" rows="1" id="gum-qnty" value="0">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <select class="form-control form-control-sm" id="single-gum">
+                        <option value="m&sup3;">m&sup3;</option>
+                        <option value="bags">bags</option>
+                      </select>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <!-- END Single wood: gum -->
+
+                  <div class="col-md-12">
+                    <h2 class="minor-heading">Mixed Wood</h2>
+                  </div>
+
+                  <!-- START Hot mix Pine/Gum -->
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <input type="checkbox" name="pinegum" id="pinegum" value="pinegum">
+                      <label class="" for="pinegum">Pine/Gum</label>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <label>Quantity: </label>
+                      <input type="number" class="form-control-nopad" name="pinegum-qnty" rows="1" min="0" id="pinegum-qnty" value="0">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                        m&sup3;
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                    <!-- END Hot mix Pine/Gum -->
+
+                  <!-- START Hot mix Pine/Macrocarpa -->
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <input type="checkbox" name="pinemacrocarpa" id="pinemacrocarpa" value="pinemacrocarpa">
+                      <label class="" for="pinemacrocarpa">Pine/Macrocarpa</label>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <label>Quantity: </label>
+                      <input type="number" class="form-control-nopad" name="pinemacrocarpa-qnty" min="0" rows="1" id="pinemacrocarpa-qnty" value="0">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                        m&sup3;
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <!-- END Hot mix Pine/Macrocarpa -->
+
+                  <!-- START Hot mix Gum/Macrocarpa -->
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <input type="checkbox" name="gummacrocarpa" id="gummacrocarpa" value="gummacrocarpa">
+                      <label class="" for="gummacrocarpa">Gum/Macrocarpa</label>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <label>Quantity: </label>
+                      <input type="number" class="form-control-nopad" name="gummacrocarpa-qnty" min="0" rows="1" id="gummacrocarpa-qnty" value="0">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                        m&sup3;
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <!-- END Hot mix Gum/Macrocarpa -->
+
+                  <div class="col-md-12">
+                    <h2 class="minor-heading">Fire starters</h2>
+                  </div>
+                  
+                  <!-- START Fire starter: kindling -->
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <input type="checkbox" name="kindling" id="kindling" value="kindling">
+                      <label class="" for="kindling">Kindling</label>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <label>Quantity: </label>
+                      <input type="number" class="form-control-nopad" name="kindling-qnty" min="0" rows="1" id="kindling-qnty" value="0">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      bags
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <!-- END  Fire starter: kindling -->
+
+                  <!-- START Fire starter: pinecones -->
+                  <div class="col-md-4">
+                      <div class="form-group">
+                        <input type="checkbox" name="pinecones" id="pinecones" value="pinecones">
+                        <label class="" for="pinecones">Pine cones</label>
+                        <div class="help-block with-errors"></div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <label>Quantity: </label>
+                      <input type="number" class="form-control-nopad" name="pinecones-qnty" rows="1" min="0" id="pinecones-qnty" value="0">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      bags
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <!-- END  Fire starter: pinecones -->
+
                   <div class="col-md-12">
                     <div class="form-group">
-                      <textarea class="form-control" placeholder="Details of Order e.g. '5 cubic metres of Pine, deliver next to woodshed at end of driveway.'" rows="11" id="order" name="order"></textarea>
+                      <textarea class="form-control" placeholder="Delivery instructions e.g. 'Deliver next to woodshed at end of driveway.'" rows="3" id="deliveryinstructions" name="order"></textarea>
                       <div class="help-block with-errors"></div>
                     </div>
 
@@ -186,7 +417,6 @@
       </div>
     </section>
     <!-- Contact Section End -->
-
 
     <!-- Footer Section Start -->
     <footer>
