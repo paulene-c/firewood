@@ -958,9 +958,28 @@ a:not([href]):not([tabindex]):hover {
   transition: all 0.3s;
   font-family: 'Lato', sans-serif;
 }
+
+.form-control-nopad {
+  width: 20%;
+  margin-bottom: 20px;
+  color: #464a4c;
+  font-size: 14px;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  font-family: 'Lato', sans-serif;
+}
+
 .form-control:focus {
   box-shadow: none;
   outline: none;
+}
+.minor-heading {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
 }
 
 .btn.disabled,
