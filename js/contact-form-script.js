@@ -103,7 +103,7 @@ function submitForm(){
 
     $.ajax({
         type: "POST",
-        url: "https://script.google.com/macros/s/AKfycbygOfHOr1fhNkgrDSfSZiyVkxULJ2UtTkG94iV-uuPwtIDjfklg/exec",
+        url: "https://script.google.com/macros/s/AKfycbxGJGt5EkVzjbDvvZmZqEeEhcbBpy5JeZ_guvQX0x8kchEOfK4/exec",
         data: { "html" : htmlTemplate },
         success : function(response){
             if (response.result == "success"){
